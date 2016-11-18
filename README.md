@@ -1,0 +1,2 @@
+# LYSpecs
+Custom Cocoapods Specs
