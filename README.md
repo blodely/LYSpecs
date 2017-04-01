@@ -1,4 +1,5 @@
 # LYSpecs
+
 Custom Cocoapods Specs
 
 ## Add custom specs repo
@@ -7,6 +8,13 @@ Using command:
 
 ```bash
 pod repo add LYSpecs https://github.com/blodely/LYSpecs.git
+```
+
+## Update repo (LYSpecs)
+
+```bash
+cd ~/.cocoapods/repos/LYSpecs
+git pull
 ```
 
 ## Podfile
@@ -23,4 +31,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 ## Author
 
 [Luo Yu](http://luoyu.space)
+
 [Email](indie.luo@gmail.com)
